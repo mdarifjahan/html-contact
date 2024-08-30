@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center> <form action="/" method="post">
+  <div> 
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+  </div>
+  <div>
+    <label for="Email">Email:</label>
+  <input type="text" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="passeord">passeord</label>:
+    <input type="text" id="passeord" name="passeord" minlength="8" required>
+  </div>
+  <div>
+    <label for="birthday">Birthday</label>:
+    <input type="date" id="date" name="date" max="2021-02-07" required> 
+  </div>
+  <div>
+  <label for="gender">Gender:</label>
+  <input type="radio" name="gender" id="male">
+  <label for="male">Male</label>
+  <!-- 
+  <label for="gender">Gender</label> -->
+  <input type="radio" name="gender" id="fmale">
+  <label for="fmale">Fmale</label>
+  
+  <!-- 
+  <label for="gender">Gender</label> -->
+  <input type="radio" name="gender" id="other">
+  <label for="other">other</label>
+  
+  </div>  
+ </form>
+<div>
+<label for="nationalities">Choose a nationality:</label>
+<select name="nationality" id="nationality">
+  <optgroup lable="First nationality">
+    <option value="dreamer">Dreamer</option>
+    <option value="worker">Worker</option>
+  </optgroup>
+  <optgroup lable="Second nationality">
+      <option value="morning person">Morning person</option>
+      <option value="nigth person">Nigth person</option>
+  </optgroup>
+  </select>
+</div>
+<div">
+<lable for="reason">Tell us why you what to register</lable><br>
+<div><textarea class="vn" name="comment" id="reason" rows="10" cols="40"></textarea></div>
+</div>
+<div id="1"><input type="submit" value="submit"></div>
+</from></center>
+</body>
+</html>

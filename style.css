@@ -1,0 +1,12 @@
+
+.vn{
+  color: brown;
+  background-color: rgb(179, 234, 234);
+  font-size: 50px;
+  height: 50px;
+  whight:50px;
+}
+body{
+  background-color: blue;
+  content: '\f268';
+}
